@@ -34,6 +34,13 @@ It demonstrates how to provision infrastructure and configure servers automatica
 
 ---
 
+## 🔄 Responsibility Separation
+
+- Terraform: Infrastructure provisioning
+- Ansible: Configuration management
+
+---
+
 ## 🚀 How It Works
 
 1. Terraform provisions infrastructure
