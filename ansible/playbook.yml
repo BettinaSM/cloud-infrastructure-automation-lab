@@ -1,0 +1,16 @@
+---
+- name: Configure simulated server
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Install nginx
+      package:
+        name: nginx
+        state: present
+
+    - name: Start nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
