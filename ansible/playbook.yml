@@ -1,4 +1,3 @@
----
 - name: Configure simulated server
   hosts: all
   become: yes
@@ -8,6 +7,11 @@
       package:
         name: nginx
         state: present
+
+    - name: Create index page
+      copy:
+        content: "DevOps Lab - Nginx running"
+        dest: /var/www/html/index.html
 
     - name: Start nginx
       service:
