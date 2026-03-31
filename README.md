@@ -1,6 +1,6 @@
 # ☁️ Cloud Infrastructure Automation Lab
 
-## 📌 Overview
+##  Overview
 
 This project simulates a cloud environment using Infrastructure as Code (IaC) and configuration management.
 
@@ -8,7 +8,7 @@ It demonstrates how to provision infrastructure and configure servers automatica
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Provision infrastructure using Terraform
 - Configure instances using Ansible
@@ -17,7 +17,7 @@ It demonstrates how to provision infrastructure and configure servers automatica
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 - Terraform for infrastructure provisioning
 - Ansible for configuration management
@@ -25,7 +25,7 @@ It demonstrates how to provision infrastructure and configure servers automatica
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Infrastructure provisioning (VM simulation)
 - Automated server configuration
@@ -34,14 +34,14 @@ It demonstrates how to provision infrastructure and configure servers automatica
 
 ---
 
-## 🔄 Responsibility Separation
+## Responsibility Separation
 
 - Terraform: Infrastructure provisioning
 - Ansible: Configuration management
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. Terraform provisions infrastructure
 2. Ansible configures the servers
@@ -49,7 +49,7 @@ It demonstrates how to provision infrastructure and configure servers automatica
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Infrastructure as Code (Terraform)
 - Configuration management (Ansible)
@@ -59,6 +59,6 @@ It demonstrates how to provision infrastructure and configure servers automatica
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 This project simulates cloud environments and does not require a real cloud account.
